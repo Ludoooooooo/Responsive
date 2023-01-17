@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.container{
+    background-color: rgb(125, 180, 198);
+}
+
+.col-xs-1{
+    width: alc(100%/12);
+}
+.col-xs-1{
+    width: alc(200%/12);
+}
+.col-xs-1{
+    width: alc(300%/12);
+}
+.col-xs-1{
+    width: alc(400%/12);
+}
+.col-xs-1{
+    width: alc(500%/12);
+}
+.col-xs-1{
+    width: alc(600%/12);
+}
+.col-xs-1{
+    width: alc(700%/12);
+}
+.col-xs-1{
+    width: alc(800%/12);
+}
+.col-xs-1{
+    width: alc(900%/12);
+}
+.col-xs-1{
+    width: alc(1000%/12);
+}
+.col-xs-1{
+    width: alc(100%/12);
+}
+.col-xs-1{
+    width: alc(1200%/12);
+}
