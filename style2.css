@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: #252525;
+    color: white;
+    padding: 20px;
+}
+#titre{
+    padding: 20px;
+}
+
+img{
+    width: 100px;
+}
+
+#today{
+    padding: 20px;
+    display: flex;
+}
+#today-info{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+@media screen and (min-width: 640px){
+    .jour{
+        color: black;
+        padding: 20px;
+        background-color: rgb(214, 214, 214);
+        border: solid 3px black;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    #semaine{
+        background-color: rgba(0, 0, 255, 0.153);
+        padding: 20px;
+        display: flex;
+    }
+
+    #today-info{
+        padding-left: 100px;
+    }
+}
+
+
+@media screen and (max-width: 640px){
+
+    #semaine{
+        background-color: rgb(44, 29, 91);
+    }
+    .jour{
+        color: black;
+        background-color: rgb(214, 214, 214);
+        border: solid 2px black;
+        display: flex;
+        padding: 20px;
+        justify-content: space-around;
+    }
+
+    #today-info{
+        padding-left: 100px;
+    }
+}
